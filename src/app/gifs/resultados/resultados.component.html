@@ -12,9 +12,9 @@
       <img [src]="gif.images.downsized_medium.url" [alt]="gif.title" 
         class="card-img-top"
         style="height: 24rem;">
-      <div class="card-body">
+      <div class="card-body d-flex justify-content-center">
         <p class="card-text">
-          {{gif.title}}
+          {{gif.title || 'No title'}}
         </p>
       </div>
     </div>
