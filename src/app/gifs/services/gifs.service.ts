@@ -24,7 +24,7 @@ export class GifsService {
 
   private apiKey: string = 'V6Nf3g14xigm6chFzNSl8zCWopuniULL';
 
-  private servicioUrl: string = 'http://api.giphy.com/v1/stickers';
+  private servicioUrl: string = 'https://api.giphy.com/v1/stickers';
 
   private _historial: string[] = [];
 
